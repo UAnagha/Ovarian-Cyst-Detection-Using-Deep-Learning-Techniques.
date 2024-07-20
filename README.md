@@ -1,4 +1,3 @@
-#Ovarian Cyst Detection 
 # Ovarian Cyst Detection using Deep Learning
 
 ## Abstract
@@ -18,6 +17,7 @@ This research highlights the potential of CNNs for automated ovarian cyst detect
 ## Features
 - Custom CNN architecture achieving 86% training accuracy and 85% testing accuracy.
 - Comparative analysis with models like SequentialNet, DenseNet169, ResNet50, and MobileNet.
+- Visualization of training and testing accuracies using Matplotlib and Seaborn.
 - Detailed performance metrics including F1 score, accuracy, sensitivity, specificity, and recall.
 
 ## Technologies Used
@@ -52,7 +52,7 @@ The comparative analysis covers accuracy metrics, computational performance, and
 Various data preprocessing techniques were applied, including normalization and augmentation, to enhance model robustness and generalizability.
 
 ## Visualization
-Matplotlib and Seaborn were used for visualizing training and testing accuracies, as well as for plotting the confusion matrix and classification report.
+Matplotlib and Seaborn were used for visualizing training and testing accuracies, as well as for plotting the comparative analysis graph.
 
 ## Contributions
 Contributions are welcome! Please fork the repository and submit a pull request.
