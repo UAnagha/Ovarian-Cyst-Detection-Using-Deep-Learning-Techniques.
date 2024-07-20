@@ -1,7 +1,7 @@
 # Ovarian Cyst Detection using Deep Learning
 
 ## Abstract
-This project involves developing a Convolutional Neural Network (CNN) based model for classifying ultrasound images of ovaries as normal or containing cysts. The goal is to aid in the early and accurate detection of ovarian cysts, which are fluid-filled sacs that develop on or within the ovaries. Manual identification of cysts in ultrasound images can be challenging, so this automated approach aims to improve detection accuracy and efficiency.
+This project involves developing a Convolutional Neural Network (CNN) based model named OvarianNet for classifying ultrasound images of ovaries as normal or containing cysts. The goal is to aid in the early and accurate detection of ovarian cysts, which are fluid-filled sacs that develop on or within the ovaries. Manual identification of cysts in ultrasound images can be challenging, so this automated approach aims to improve detection accuracy and efficiency.
 
 The research utilizes a dataset of labeled ultrasound images that have been pre-processed to normalize them and augmented to increase diversity. The CNN architecture includes convolution layers for feature extraction and fully connected layers for classification. Various models, including SequentialNet, DenseNet169, ResNet50, and MobileNet, were compared to evaluate their performance.
 
@@ -15,7 +15,7 @@ This research highlights the potential of CNNs for automated ovarian cyst detect
 **Keywords**: Ovarian cyst detection, deep learning, Convolutional Neural Network, OvarianNet, SequentialNet, MobileNet, ResNet50, DenseNet169.
 
 ## Features
-- Custom CNN architecture achieving 86% training accuracy and 85% testing accuracy.
+- Custom CNN architecture (OvarianNet) achieving 86% training accuracy and 85% testing accuracy.
 - Comparative analysis with models like SequentialNet, DenseNet169, ResNet50, and MobileNet.
 - Visualization of training and testing accuracies using Matplotlib and Seaborn.
 - Detailed performance metrics including F1 score, accuracy, sensitivity, specificity, and recall.
