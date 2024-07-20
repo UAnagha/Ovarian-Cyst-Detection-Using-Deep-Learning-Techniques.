@@ -14,6 +14,15 @@ This research highlights the potential of CNNs for automated ovarian cyst detect
 
 **Keywords**: Ovarian cyst detection, deep learning, Convolutional Neural Network, OvarianNet, SequentialNet, MobileNet, ResNet50, DenseNet169.
 
+## Dataset
+The dataset used for this project consists of labeled ultrasound images of ovaries. The dataset was compiled from various sources and pre-processed to ensure consistency and quality. Key aspects of the dataset include:
+
+- **Source**: The dataset was created on Kaggle by combining data from multiple sources on the internet.
+- **Pre-processing**: Images were normalized to ensure uniformity and pre-processed to enhance model performance.
+- **Augmentation**: Data augmentation techniques were applied to increase the diversity of the dataset and improve model robustness.
+
+The dataset includes both normal and cystic ovarian images, which were used to train and evaluate the CNN model.
+
 ## Features
 - Custom CNN architecture (OvarianNet) achieving 86% training accuracy and 85% testing accuracy.
 - Comparative analysis with models like SequentialNet, DenseNet169, ResNet50, and MobileNet.
